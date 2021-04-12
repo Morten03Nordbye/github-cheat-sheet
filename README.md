@@ -1,4 +1,4 @@
-# ffmpeg-cheat-sheet
+# github-cheat-sheet
 Convert lossless (only repack, don't reencode)
 ```sh
 echo "# github-cheat-sheet" >> README.md
