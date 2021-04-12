@@ -29,3 +29,7 @@ Pushe filene fra local til github
 ```sh
 git push -u origin main
 ```
+Hente filer fra github
+```sh
+git fetch: Hente filer fra github
+```
