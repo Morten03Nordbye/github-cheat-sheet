@@ -1,14 +1,12 @@
 # github-cheat-sheet
-Convert lossless (only repack, don't reencode)
+Lage en readme file
 ```sh
 echo "# github-cheat-sheet" >> README.md
 ```
 
-Parameters to remember
+Lage local repo
 ```sh
--map 0:a #includes all audio tracks
--map 0:a #includes all video tracks
--q:a # variable bit rate
+git init
 ```
 ffmpeg -i adobe.mkv -c:a mp3 -q:a 1 adobe.mp3
 #-q:a -> variable bit rate
