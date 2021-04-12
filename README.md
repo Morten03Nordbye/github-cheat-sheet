@@ -8,17 +8,11 @@ Lage local repo
 ```sh
 git init
 ```
-ffmpeg -i adobe.mkv -c:a mp3 -q:a 1 adobe.mp3
-#-q:a -> variable bit rate
-
-Keep different audio tracks
+Legg filen til commit
 ```
-ffmpeg -i adobe.mkv -map 0:1 adobe.mp3 # keep first audio track
-ffmpeg -i adobe.mkv -map 0:2 adobe.mp3 # keep second audio track
-ffmpeg -i adobe.mkv -c copy -map 0 adobe.mp4 # keep all audio tracks
-
+git add README.md
 ```
-
-convert to mp4, keep all audio tracks
+lage commit
 ```sh
-ffmpeg -i adobe.mkv -c copy -map 0 adobe.mp4
+git commit
+```
