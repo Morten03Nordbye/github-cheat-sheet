@@ -1,7 +1,7 @@
 # ffmpeg-cheat-sheet
 Convert lossless (only repack, don't reencode)
 ```sh
-ffmpeg -i input.mkv -codec copy output.mp4
+echo "# github-cheat-sheet" >> README.md
 ```
 
 Parameters to remember
