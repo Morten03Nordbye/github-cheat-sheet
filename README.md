@@ -31,5 +31,9 @@ git push -u origin main
 ```
 Hente filer fra github
 ```sh
-git fetch: Hente filer fra github
+git fetch
+```
+se forskjellen mellom local repo og online repo
+```sh
+git diff "file"
 ```
